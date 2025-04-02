@@ -1,0 +1,107 @@
+<?php 
+
+    //taxinvoices
+    $itemsadded=1;
+    $invoiceno="";
+    $vendorno="";
+    $challanno="";
+    $orderno="";
+    $dcno="";
+    $cusgstno="";
+    $vehicleno="";
+    $invoicedate="";
+    $vendordate="";
+    $challandate="";
+    $dcdate="";
+    $orderdate="";
+    $cname="";
+    $gsttype="";
+    $adjustment="";
+    $amtwords="";
+    $totalvalue="";
+    $cgst="";
+    $sgst="";
+    $igst="";
+    $subtotal="";
+    $grandtot="";
+    $coname="";
+    $cgstno="";
+    $cvendorno="";
+    $caddress="";
+    $carea="";
+    $cdistrict="";
+    $cstate="";
+    $cphnno="";
+    $cemail="";
+    $companyname="";
+    $gstpercentage="";
+    $output="";
+    $previousinvoiceno=0;
+    $endinvoice=array();
+    $companynames=array();
+    $invoices=array();
+    $items=array();
+    $hsncodes=array();
+    $quantitys=array();
+    $units=array();
+    $rates=array();
+    $amounts=array();
+    $date2=array();
+    $companys=array();
+    $invoicecompany=array();
+    $invoice=array();
+    //table invoices
+    $tableitemnames=array();
+    $tablehsncodes=array();
+    $tablequantity=array();
+    $tableunits=array();
+    $tableamounts=array();
+    //flags
+    $flag=0;
+    $flag1=0;
+    //transaction page
+    $transactions=array();
+    $transactionsdates=array();
+    $uniquetransactionsdates=array();
+    $nooftransactions=array();
+    $transactionsgrandtotal=array();
+    $dates=array();
+    $currentyeartransactions=array();
+    $currentyeartransactionsmonths=array();
+    $uniquecurrentyeartransactionsmonths=array();
+    $countofcurrentmonthtransactions=0;
+    $arrayofcurrentmonthtransactions=array();
+    $datearray=array();
+
+    $countofuniquetransactions=0;
+    $transactiontotalvaluemonth=0;
+    $transactiongstamtmonth=0;
+    $transactiongrandtotalmonth=0;
+    $thismonth="";
+    $firstmonth="";
+    $lastdate="";
+    $filterdate="";
+    //iteration
+    $slno=1;
+    $slno1=1;
+    $j=0;
+    $yr=0;
+    $k=0;
+    $l=0;
+    //db
+    $k=0;
+    $sql="";
+    $sql1="";
+    $sql2="";
+    $sql3="";
+    $sql4="";
+    $sql5="";
+    $sql6="";
+    
+    $result="";
+    $result1="";
+    $result2="";
+    $result3="";
+
+
+?>

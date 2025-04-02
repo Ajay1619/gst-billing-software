@@ -1,0 +1,89 @@
+
+body{
+    background-color: #252526;
+    color: white;
+    /* overflow-y: hidden;
+    overflow-x: hidden;   */
+}
+#labels{
+    color:#bdbdbd;
+}
+table{
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+#table{
+    
+    font-size: large;
+}
+td{
+    border: 2px solid #dc1a2e;
+    font-weight:bold ;
+    color: black;
+}
+tr{
+    border: 2px solid #dc1a2e;
+}
+
+#addcompany,#adddetails{
+    cursor: pointer;
+}
+#pdf {
+    font-family: 'Eras ITC';
+    font-weight: bold;
+    color: black;
+    
+}
+#deliverychallan {
+    
+    font-family: 'Eras ITC';
+    font-weight: bold;
+    color: black;
+}
+#bottom{
+    width: 100%;
+    
+}
+#top{
+    width: 100%;
+    
+}
+#authority{
+    
+    color: black;
+    font-family: 'Eras ITC';
+    font-weight: bold;
+}
+
+#todaydate{
+    position: absolute;
+    top:1440px;
+    left: 1050px;
+    font-size: xx-large;
+    color: black;
+}
+#dcinvoiceno{
+    position: absolute;
+    top:2955px;
+    left:350px;
+    font-size:xx-large;
+    color: black;
+}
+#dctodaydate{
+    position: absolute;
+    top:2955px;
+    left: 1050px;
+    font-size: xx-large;
+    color: black;
+}
+#tabletd{
+    font-family: 'Eras ITC';
+    font-weight: bold;
+    color: black;
+}
+p{
+    font-size: large;
+}
+/* #taxinvoice{
+    opacity: 0;
+} */

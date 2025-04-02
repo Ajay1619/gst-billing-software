@@ -1,0 +1,130 @@
+
+body{
+    background-color: #252526;
+    color: white;
+    /* overflow-y: hidden;
+    overflow-x: hidden;    */
+}
+#billsc{
+    overflow-y: auto;
+}
+#taxinvoiceno{
+    position: absolute;
+    top:1490px;
+    left:450px;
+    font-size:xx-large;
+    color: black;
+}
+#todaydate{
+    position: absolute;
+    top:1490px;
+    left: 1060px;
+    font-size: xx-large;
+    color: black;
+}
+#qno{
+    position: absolute;
+    top:3045px;
+    left:490px;
+    font-size:xx-large;
+    color: black;
+}
+#qdate{
+    position: absolute;
+    top:3044px;
+    left: 1060px;
+    font-size: xx-large;
+    color: black;
+}
+#dcinvoiceno{
+    position: absolute;
+    top:4450px;
+    left:350px;
+    font-size:xx-large;
+    color: black;
+}
+#dctodaydate{
+    position: absolute;
+    top:4450px;
+    left: 1060px;
+    font-size: xx-large;
+    color: black;
+}
+#labels{
+    color:#bdbdbd;
+}
+table{
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+#table{
+    
+    font-size: large;
+}
+td{
+    border: 2px solid #dc1a2e;
+    font-weight:bold ;
+    color: black;
+}
+tr{
+    border: 2px solid #dc1a2e;
+}
+
+#addcompany,#adddetails{
+    cursor: pointer;
+}
+#pdf {
+    font-family: 'Eras ITC';
+    font-weight: bold;
+    color: black;
+    
+}
+#qpdf {
+    font-family: 'Eras ITC';
+    font-weight: bold;
+    color: black;
+    
+}
+#deliverychallan {
+    
+    font-family: 'Eras ITC';
+    font-weight: bold;
+    color: black;
+}
+#bottom{
+    width: 100%;
+    
+}
+#top{
+    width: 100%;
+    
+}
+#authority{
+    
+    color: black;
+    font-family: 'Eras ITC';
+    font-weight: bold;
+}
+#qauthority{
+    
+    color: black;
+    font-family: 'Eras ITC';
+    font-weight: bold;
+}
+#dcauthority{
+    
+    color: black;
+    font-family: 'Eras ITC';
+    font-weight: bold;
+}
+#tabletd{
+    font-family: 'Eras ITC';
+    font-weight: bold;
+    color: black;
+}
+p{
+    font-size: large;
+}
+/* #taxinvoice{
+    opacity: 0;
+} */

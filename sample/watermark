@@ -1,0 +1,30 @@
+
+<?php  ?>
+                    <?php foreach ($currentyeartransactions as $key => $currentyeartransaction) {
+                               
+                        ?> 
+                    <tr>
+                            <?php  foreach ($uniquecurrentyeartransactionsmonths as $key1 => $uniquecurrentyeartransactionsmonth) {if ($uniquecurrentyeartransactionsmonth!=$firstmonth || $firstmonth==null) { print_r($currentyeartransaction);
+                                $firstmonth=$uniquecurrentyeartransactionsmonth;
+                                $countofcurrentmonthtransactions=array_count_values($currentyeartransactionsmonths);
+                                foreach ($countofcurrentmonthtransactions as $key3 => $value) {
+                                    if ($key3==$firstmonth) {
+                                        $flag1=$value;
+                                    }
+                                }
+                                ?>
+                                <td rowspan="<?php echo $flag1;?>"><h3><?php echo $uniquecurrentyeartransactionsmonth; ?></h3></td>
+                           <? }else if ($uniquecurrentyeartransactionsmonth==$firstmonth){
+                            continue;
+                           }
+                         ?>
+                        <td><?php 
+                                if (date("F", strtotime($currentyeartransaction['invoicedate']))==$firstmonth) {
+                                    echo $currentyeartransaction['invoicedate'];
+                                }
+                            ?></td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>25000</td>
+                    </tr>
+                    <?php  }}?>
